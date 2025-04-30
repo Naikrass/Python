@@ -1,4 +1,4 @@
-from adress import Address
+from address import Address
 
 
 class Mailing:
@@ -12,9 +12,3 @@ class Mailing:
         self.f = from_address
         self.c = cost
         self.t = track
-
-    def to_adress(self):
-        print(self.to_address)
-
-    def from_adress(self):
-        print(self.from_address)
